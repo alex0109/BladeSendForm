@@ -1,6 +1,6 @@
-var modal = document.getElementById('bladeModal');
-var btn = document.getElementById("bladeBtn");
-var span = document.getElementsByClassName("close")[0];
+let modal = document.getElementById('bladeModal');
+let btn = document.getElementById("bladeBtn");
+let span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
 	modal.style.display = "block";
